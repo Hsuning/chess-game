@@ -22,24 +22,21 @@ xcode-select --install
 ## Usage
 
 Compile the code by simply running gcc 
+
+Command1: compile
 ```
-Command1
-	gcc -Wall -o chessgame jeuEchec.c
-	
-	If on newer versions of OS X:
-	clang jeuEchec.c -o chessgame
-
-Command2
-	./chessgame
-
-Then the game will be started
-
- Bienvenue dans le jeu d'echec!
- -1-Nouvelle partie
- -2-Charger une partie
- -0-Quitter
- Votre choix : 
+gcc -Wall -o chessgame jeuEchec.c
 ```
+If on newer versions of OS X:
+```
+clang jeuEchec.c -o chessgame
+```
+
+Command2: run
+```
+./chessgame
+```
+Then the game will be started.
 
 The files whose names begin with "Test" are the files that you can load into the game with "2 - Loading".
 
